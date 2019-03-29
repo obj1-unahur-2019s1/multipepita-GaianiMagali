@@ -1,6 +1,8 @@
 
 object alpiste {
-	method energiaPorGramo() { return 4 }
+	method energiaPorGramo() 
+	energia= gramos * comida.energiaPorGramo
+	{ return 4 }
 }
 
 object mondongo {
